@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    width: 300px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 40px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    
+}
+li {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+li:hover {
+    background-image: linear-gradient(to right,white, blue);
+    color: black;
+    transition: 2s;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(black 90%, white 10%);
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    height: 25px;
+    width: 100%; 
+} 
+    
+    
