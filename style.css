@@ -26,21 +26,21 @@
     padding: 0 10px;
     transition: 0.4s;
 }
-.show,.hide{
+.show-menu-btn,.hide-menu-btn{
     transition: 0.4s;
     font-size: 30px;
     cursor: pointer;
     display: none;
 }
-.show{
+.show-menu-btn{
     float: right;
 }
-.show i{
+.show-menu-btn i{
     line-height: 100px;
 }
 .menu a:hover,
-.show:hover,
-.hide:hover{
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
     color: #3498db;
 }
 #chk{
@@ -61,7 +61,7 @@
 }
 
 @media screen and (max-width:800px) {
-    .show,.hide{
+    .show-menu-btn,.hide-menu-btn{
         display: block;
     }
      .menu{
@@ -80,7 +80,7 @@
          display: block;
          padding: 20px;
      }
-     .hide{
+     .hide-menu-btn{
          position: absolute;
          top: 40px;
          right: 40px;
